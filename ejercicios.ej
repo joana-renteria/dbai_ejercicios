@@ -1,0 +1,44 @@
+--- 2 ---
+participant(n_part (pk), name_part, address_part, tel_part, play, code_c (pk)) 
+player(n_part (pk)(fk), level, code_c (fk))
+referee(n_part (pk)(fk), code_c(fk))
+country(cod_c (pk), name_c, num_chess, cod_c_plays (fk))
+match(cod_m (pk), journey, n_part (fk)
+hotel(name_h (pk), address, tel)
+hosts(n_part (pk)(fk), name_h (pk)(fk), date_s, date, date_end)
+room(name_h (pk)(fk), code_r, capacity, facilities)
+celebrates(code_m (pk)(fk), name_h (pk)(fk), code_r (pk)(fk), tickets)
+movement(cod_m (pk)(fk), fd_mov, play, mov, comment)
+plays(n_part (pk)(fk), cod_m (pk)(fk), color)
+
+--- 4 ---
+conflict(cod_c (pk), name_c, n_deads, countries))
+territorial(cod_c (pk), reg)
+religions(cod_c (pk)(fk), rel)
+economic(cod_c (pk)(fk), mat)
+racial(cod_c (pk)(fK), ethnicities)
+intervines(cod_c (pk)(fk), cod_c (pk)(fk), date_s, date_e)
+mediates(cod_c (pk)(fk), code_o (pk)(fk), date_s, date_e)
+group(cod_g (pk)(fk), name_g, num)
+organization(cod_o (pk), name_o, num)
+leader(name_l (pk), cod_g (pk)(fk))
+division(cod_d (pk), cod_g (pk)(fk), n_c, n_d, n_s,.....)
+sells(cod_g (pk)(fk), cod_t (pk)(fk), cod_w (pk), n_w)
+weapon(name_g (pk)(fk), dest_p)
+dealer(name_d (pk))
+chief(cod_c (pk), cod_p (fk), cod_div (fk))
+dialogues(cod_p (pk)(fk), cod_o (pk)(fk))
+
+--- 5 ---
+user(cod_user (pk), name_user, tlf_user, terminal_user)
+profile(cod_pro (pk), cod_user (fk), desc_prog)
+access(cod_prog (pk)(fk), cod_subsystem (pk)(fk))
+subsystem(cod_prog (pk)(fk), cod_subsystem (pk)(fk), desc_sub)
+window(cod_
+control(cod_
+compossed(cod_
+call_act(cod_
+function(cod_
+action(cod_
+
+--- 6 ---
