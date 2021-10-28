@@ -41,4 +41,30 @@ call_act(cod_
 function(cod_
 action(cod_
 
---- 6 ---
+--- amusement park ---
+city(cod_c (pk), name_c)
+aqp(aq_name, dec_date)
+has(cod_c (pk)(fk), aq_name (pk)(fk), areakm, np)
+area(name_area (pk), aq_name (fk), ext)
+atrac(cod_a (pk), name_area (fk), np, desc, sdesc)
+slide(cod_a (pk)(fk), age, level)
+coaster(cod_a (pk)(fk), type)
+wheel(cod_ (pk), cod_a
+pass(cod_ (pk),
+entrance(cod_ (pk),
+staff(cod_ (pk),
+work(cod_ (pk),
+engi(cod_ (pk),
+survi(cod_ (pk),
+cosv(cod_ (pk),
+mantain(cod_ (pk),
+manager(cod_ (pk),
+project(cod_ (pk),
+perform(cod_ (pk),
+car monitor(cod_ (pk),
+visitant(cod_ (pk),
+lodge(cod_ (pk),
+stays(cod_ (pk),
+trip(cod_ (pk),
+organize(cod_ (pk),
+attend(cod_ (pk),
